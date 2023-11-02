@@ -1,5 +1,5 @@
 import CartContext from './cart-context';
-const CartProvider = () => {
+const CartProvider = (props) => {
   const addItemToCartHandler = (item) => {};
   const removeItemCartFromHandler = (id) => {};
   const cartContext = {
